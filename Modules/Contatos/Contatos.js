@@ -5,7 +5,7 @@ class Contatos extends Component{
     render(){
         return(
             <View>
-                <Text>Home</Text>
+                <Text>Contatos</Text>
             </View>
         );
     }

@@ -1,11 +1,21 @@
-import React, {Component, component} from 'react';
-import {View, Text} from 'react-native';
+import React, {Compónent} from 'react';
+import {View, Text, TextInput, Button} from 'react-native';
 
 class Cadastro extends Component{
     render(){
         return(
             <View>
-                <Text>Cadastro</Text>
+                <Text>Nome: </Text>
+                <TextInput 
+                    placeholder={'Digite seu Nome...'} />
+                <Text>Número: </Text>
+                <TextInput 
+                    placeholder={'Digite seu número...'} />
+                <Text>Endereço: </Text>
+                <TextInput 
+                    placeholder={'Digite seu Endereço...'} />  
+
+                <Button title={Cadastrar} />          
             </View>
         );
     }

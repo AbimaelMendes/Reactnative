@@ -1,14 +1,15 @@
 import React, {Component} from 'react';
 import {View, Text} from 'react-native';
+import Navigator from '../../Navigator/Navigator';
 
-class Detalhes extends Component{
+class Index extends Component{
     render(){
         return(
             <View>
-                <Text>Detalhes</Text>
+                <Navigator/>
             </View>
         );
     }
 }
 
-export default Detalhes;
+export default Index;
